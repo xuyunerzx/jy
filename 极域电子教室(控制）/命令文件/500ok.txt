@@ -1,0 +1,8 @@
+7
+del /f /q "C:\heihei.vbs"
+echo dim^ s >>C:/heihei.vbs
+echo do^ until^ s^=500 >>C:/heihei.vbs
+echo s^=s^+1 >>C:/heihei.vbs
+echo msgbox^ ^"按500下确定^"^,64 >>C:/heihei.vbs
+echo loop >>C:/heihei.vbs
+start c:/heihei.vbs

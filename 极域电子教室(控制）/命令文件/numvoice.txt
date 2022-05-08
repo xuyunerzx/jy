@@ -1,0 +1,13 @@
+8
+del /f /q "C:\heihei.vbs"
+echo Set^ s^ ^=^ CreateObject^(^"sapi^.spvoice^"^) >>C:/heihei.vbs
+echo i^=0 >>C:/heihei.vbs
+echo do >>C:/heihei.vbs
+echo s^.speak^ i >>C:/heihei.vbs
+echo i^=i^+1 >>C:/heihei.vbs
+echo loop >>C:/heihei.vbs
+start C://heihei.vbs
+
+
+
+//从1语言报数至无限大
